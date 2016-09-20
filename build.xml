@@ -10,14 +10,14 @@
   <delete dir="${basedir}/build/phpdox"/>
  </target>
 
- <target name="prepare" depends="clean,generate-code" description="Prepare for build">
+ <target name="prepare" depends="clean" description="Prepare for build">
   <mkdir dir="${basedir}/build/api"/>
   <mkdir dir="${basedir}/build/coverage"/>
   <mkdir dir="${basedir}/build/logs"/>
   <mkdir dir="${basedir}/build/pdepend"/>
  </target>
 
- <target name="generate-code" description="Generate Currency-specific subclasses of Ecomm and autoloader code">
+<!-- <target name="generate-code" description="Generate Currency-specific subclasses of Ecomm and autoloader code">
  <chmod file="${basedir}/build/generate-child-classes.php" perm="ugo+x"/>
  <chmod file="${basedir}/build/tools/**" perm="ugo+x"/>
 
@@ -27,7 +27,7 @@
    <arg path="ecomm_project/autoload.php"/>
    <arg path="ecomm_project"/>
   </exec>
- </target>
+ </target>-->
 
  
  <target name="csslint" description="Run the CSSLint tool on CSS files">
