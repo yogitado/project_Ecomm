@@ -27,7 +27,7 @@
    <arg path="ecomm_project/autoload.php"/>
    <arg path="ecomm_project"/>
   </exec>
- </target>-->
+ </target>
 
 <!--
  <target name="lint">
