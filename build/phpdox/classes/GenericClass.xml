@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="GenericClass" namespace="" name="GenericClass" abstract="false" final="false" start="6" end="72">
+  <file path="../ecomm_project" file="GenericClass.php" realpath="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/GenericClass.php" size="2157" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="fc9f08d1742d63111bd264041e8c377d472e785e"/>
+  <docblock>
+    <description compact="A Generic class which defines two methods for checking login credentials and Items in the cart"/>
+  </docblock>
+  <method name="checFunLogin" start="15" end="39" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="unction returns nothing, fetches email and password record from database and checks user.">param string $email
+param string $pass
+var object
+name $field
+name $table</description>
+    </docblock>
+    <parameter name="email" byreference="false" type="{unknown}"/>
+    <parameter name="pass" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="checkFunctionSummery" start="48" end="71" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="unction returns nothing ,checks whether user has added anything in cart or not.">param string $email
+param string $pass
+var object
+name $field
+name $table</description>
+    </docblock>
+    <parameter name="email" byreference="false" type="{unknown}"/>
+    <parameter name="pass" byreference="false" type="{unknown}"/>
+  </method>
+</class>

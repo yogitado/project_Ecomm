@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Helper_page" namespace="" name="Helper_page" abstract="false" final="false" start="10" end="57">
+  <file path="../ecomm_project" file="Helper_page.php" realpath="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/Helper_page.php" size="1260" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="109f5d6c32a174025a01844def393212caa6447a"/>
+  <docblock>
+    <description compact="This Helper_page class consist of a function required for LIMIT query in ProductViewPage.php">he constructor is used to establish connection with database
+
+his class is inherited from Helper class</description>
+  </docblock>
+  <extends full="Helper" namespace="" name="Helper"/>
+  <constructor name="__construct" start="11" end="17" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="databasename" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="read_page" start="31" end="46" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Fetches all values from the table in database with a condition">param string $field
+
+param string $table
+
+param string $condition
+
+name sql
+
+return $data</description>
+    </docblock>
+    <parameter name="field" byreference="false" type="{unknown}"/>
+    <parameter name="table" byreference="false" type="{unknown}"/>
+    <parameter name="condition" byreference="false" type="{unknown}"/>
+  </method>
+  <destructor name="__destruct" start="50" end="56" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Class destruct which closes connection"/>
+    </docblock>
+  </destructor>
+  <parent full="Helper" namepsace="" name="Helper">
+    <member name="con" type="{unknown}" visibility="public" line="12">
+      <docblock>
+        <description compact="ample class variables access private var string"/>
+      </docblock>
+    </member>
+    <constructor name="__construct" start="17" end="23" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="lass constructor ,establishes connection with database param string $databasename"/>
+      </docblock>
+      <parameter name="databasename" byreference="false" type="{unknown}"/>
+    </constructor>
+    <method name="insert" start="32" end="40" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Inserts values into particular fields in database param string $table param string $field param string $values return number"/>
+      </docblock>
+      <parameter name="table" byreference="false" type="{unknown}"/>
+      <parameter name="field" byreference="false" type="{unknown}"/>
+      <parameter name="values" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="insert_all" start="47" end="54" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Inserts all values into database param string $table param string $values name sql"/>
+      </docblock>
+      <parameter name="table" byreference="false" type="{unknown}"/>
+      <parameter name="values" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="delete" start="62" end="69" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Deletes particular values from database param string $table param string $condition name sql"/>
+      </docblock>
+      <parameter name="table" byreference="false" type="{unknown}"/>
+      <parameter name="condition" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="read_record" start="79" end="96" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Fetches required values from database param string $table param string $field param string condition var array name sql"/>
+      </docblock>
+      <parameter name="field" byreference="false" type="{unknown}"/>
+      <parameter name="table" byreference="false" type="{unknown}"/>
+      <parameter name="condition" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="read_all" start="106" end="122" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Fetches all values from table in database param string $table param string $field var array name sql rertun $data"/>
+      </docblock>
+      <parameter name="field" byreference="false" type="{unknown}"/>
+      <parameter name="table" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="update" start="131" end="138" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Updates the database param string $table param string $field param string condition name sql"/>
+      </docblock>
+      <parameter name="table" byreference="false" type="{unknown}"/>
+      <parameter name="field" byreference="false" type="{unknown}"/>
+      <parameter name="condition" byreference="false" type="{unknown}"/>
+    </method>
+    <destructor name="__destruct" start="142" end="148" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Class destructor which closes connection"/>
+      </docblock>
+    </destructor>
+  </parent>
+</class>

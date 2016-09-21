@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src#">
+  <namespace name="">
+    <class name="Sever_User_Email_Validation" src="../ecomm_project/Sever_User_Email_Validation.php" description="ever_User_Email_Validation class performs server side email validation" xml="classes/Sever_User_Email_Validation.xml"/>
+    <class name="DisplayLogic" src="../ecomm_project/DisplayLogic.php" xml="classes/DisplayLogic.xml"/>
+    <class name="GenericClass" src="../ecomm_project/GenericClass.php" description="A Generic class which defines two methods for checking login credentials and Items in the cart" xml="classes/GenericClass.xml"/>
+    <class name="Product" src="../ecomm_project/Product.php" description="roduct class consist of all CRUD operations of a products" xml="classes/Product.xml"/>
+    <class name="Helper" src="../ecomm_project/Helper.php" description="A Helper class which consists all the functions required for CRUD operations" xml="classes/Helper.xml"/>
+    <class name="Helper_page" src="../ecomm_project/Helper_page.php" description="This Helper_page class consist of a function required for LIMIT query in ProductViewPage.php" xml="classes/Helper_page.xml"/>
+    <class name="Config" src="../ecomm_project/config1.php" description="he Config class is a class where you declare all the credential of your project" xml="classes/Config.xml"/>
+  </namespace>
+</index>

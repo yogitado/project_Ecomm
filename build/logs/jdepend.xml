@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>8</TotalClasses>
+        <ConcreteClasses>8</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/DisplayLogic.php">DisplayLogic</Class>
+        <Class sourceFile="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/GenericClass.php">GenericClass</Class>
+        <Class sourceFile="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/Helper.php">Helper</Class>
+        <Class sourceFile="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/Helper_page.php">Helper_page</Class>
+        <Class sourceFile="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/Product.php">Product</Class>
+        <Class sourceFile="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/Sever_User_Email_Validation.php">Sever_User_Email_Validation</Class>
+        <Class sourceFile="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/config1.php">Config</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+core</Package>
+        <Package>+mysqli</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

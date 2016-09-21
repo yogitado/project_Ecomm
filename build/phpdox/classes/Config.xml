@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Config" namespace="" name="Config" abstract="false" final="false" start="7" end="14">
+  <file path="../ecomm_project" file="config1.php" realpath="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/config1.php" size="281" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="5a89a684a1bfc7f3ed44e0fd973eaed8edc20a6b"/>
+  <docblock>
+    <description compact="he Config class is a class where you declare all the credential of your project">eclaring config class constants</description>
+  </docblock>
+  <constant name="HOST" value="'172.27.59.54'"/>
+</class>

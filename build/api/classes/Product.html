@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:pdxf="http://xml.phpdox.net/functions" xmlns:pu="http://schema.phpunit.de/coverage/1.0" lang="en">
+  <head xmlns:git="http://xml.phpdox.net/gitlog#">
+    <title>phpDox - Product</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav xmlns:git="http://xml.phpdox.net/gitlog#" class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../reports/index.html">Reports</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">Product</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#violations">Violations</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="#history">History</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>\</small>Product</h1>
+        <h4>roduct class consist of all CRUD operations of a products</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Product
+            {<br/><ul class="none"><li>// members</li><li>private
+                         <a href="#members">$helper</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="Product" href="../classes/Product/__construct.html">__construct</a>()
+                    </li><li>public void <a title="Product" href="../classes/Product/addProduct.html">addProduct</a>()
+                    </li><li>public void <a title="Product" href="../classes/Product/deleteProduct.html">deleteProduct</a>()
+                    </li><li>public void <a title="Product" href="../classes/Product/updateProduct.html">updateProduct</a>()
+                    </li><li>public void <a title="Product" href="../classes/Product/viewProduct.html">viewProduct</a>()
+                    </li><li>public void <a title="Product" href="../classes/Product/viewSingleProduct.html">viewSingleProduct</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="violations">Violations</h2>
+        <div class="styled">
+          <h3>PHPMessDetector</h3>
+          <table class="styled">
+            <thead>
+              <tr>
+                <th>Line</th>
+                <th>Rule</th>
+                <th>Message</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>34</td>
+              <td>
+                <a href="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" target="_blank" title="Unused Code Rules">UnusedLocalVariable</a>
+              </td>
+              <td>Avoid unused local variables such as '$helper'.</td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td>
+                <a href="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" target="_blank" title="Unused Code Rules">UnusedLocalVariable</a>
+              </td>
+              <td>Avoid unused local variables such as '$helper'.</td>
+            </tr>
+          </table>
+          <h3>Checkstyle</h3>
+          <table class="styled">
+            <thead>
+              <tr>
+                <th>Line</th>
+                <th>Column</th>
+                <th>Severity</th>
+                <th>Message</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>15</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>39</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>5</td>
+              <td>
+                <span title="Squiz.WhiteSpace.ScopeClosingBrace.Indent">error</span>
+              </td>
+              <td>Closing brace indented incorrectly; expected 1 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>69</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>59</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td>2</td>
+              <td>
+                <span title="Squiz.WhiteSpace.ScopeClosingBrace.Indent">error</span>
+              </td>
+              <td>Closing brace indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>29</td>
+              <td>67</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>2</td>
+              <td>
+                <span title="Squiz.WhiteSpace.ScopeClosingBrace.Indent">error</span>
+              </td>
+              <td>Closing brace indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td>56</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>71</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>38</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+          </table>
+        </div>
+        <h2 id="members">Members</h2>
+        <div xmlns:git="http://xml.phpdox.net/gitlog#" class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="helper">
+              <strong>$helper</strong>
+              <br/>
+              <span class="indent">ample class variables</span>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div xmlns:git="http://xml.phpdox.net/gitlog#" class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="Product" href="../classes/Product/__construct.html">__construct()</a>
+            </li>
+            <li id="addProduct">
+              <a title="Product" href="../classes/Product/addProduct.html">addProduct()</a>
+            </li>
+            <li id="deleteProduct">
+              <a title="Product" href="../classes/Product/deleteProduct.html">deleteProduct()</a>
+            </li>
+            <li id="updateProduct">
+              <a title="Product" href="../classes/Product/updateProduct.html">updateProduct()</a>
+            </li>
+            <li id="viewProduct">
+              <a title="Product" href="../classes/Product/viewProduct.html">viewProduct()</a>
+            </li>
+            <li id="viewSingleProduct">
+              <a title="Product" href="../classes/Product/viewSingleProduct.html">viewSingleProduct()</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="history">History</h2>
+        <ul xmlns:git="http://xml.phpdox.net/gitlog#" class="styled history">
+          <li>
+            <h3>2015-03-18T11:22:46+05:30 (commit #<span title="4e942a06e667965bc74d4d788c383104c5d45874">4e942a0</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Product.php v2.4</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-18T11:03:16+05:30 (commit #<span title="5d8fd3abecb7dddb4c0b52517e7d922798ba4cb2">5d8fd3a</span>)</h3>
+            <div>
+              <p>
+                        Author: Pradeep Borse (pradeepbo@cybage.com) /
+                        Commiter: Pradeep Borse (pradeepbo@cybage.com)
+                    </p>
+              <pre class="wrapped">Product.php Naming Conventions</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-18T10:50:53+05:30 (commit #<span title="578537a2589df409063de5fc73a7c3c8a0d9438c">578537a</span>)</h3>
+            <div>
+              <p>
+                        Author: Pradeep Borse (pradeepbo@cybage.com) /
+                        Commiter: Pradeep Borse (pradeepbo@cybage.com)
+                    </p>
+              <pre class="wrapped">Product.php naming Conventions</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-18T10:32:39+05:30 (commit #<span title="1e16ecd4977c134ec9e4d1e65ba32b9194d6f67a">1e16ecd</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Product.php v2.1</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T21:28:18+05:30 (commit #<span title="725e4e54b3f8c39d30e6c795de1a79d1ada4f930">725e4e5</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Product.php v2.0</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T18:21:17+05:30 (commit #<span title="7df683f5f666209a32ee1e0d26dcf25c480d39ae">7df683f</span>)</h3>
+            <div>
+              <p>
+                        Author: Priya (priyal@priyal.cybage.com) /
+                        Commiter: Priya (priyal@priyal.cybage.com)
+                    </p>
+              <pre class="wrapped">API Documentation done for Product.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T13:48:41+05:30 (commit #<span title="6c457c2bf495254753bd1a764d41fe37e258d50f">6c457c2</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Product.php,user_details.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-16T15:29:27+05:30 (commit #<span title="d575153f911e89831d4694369f054ec232550d5a">d575153</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Product.php v1.0</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-16T15:22:32+05:30 (commit #<span title="c3f226c410910a3f91a869f91cbbf131b0ee3186">c3f226c</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Product.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-13T17:47:14+05:30 (commit #<span title="57795403debf24a50e007ab8e2e2a92ec7f177fe">5779540</span>)</h3>
+            <div>
+              <p>
+                        Author: dipika (dipikaj@cybage.com) /
+                        Commiter: dipika (dipikaj@cybage.com)
+                    </p>
+              <pre class="wrapped">Edition of all PHP files for sonar</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-13T15:47:26+05:30 (commit #<span title="28cc9001bff6347249d8e4fa78bef52929472b03">28cc900</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Product.php using Sonarqube</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-13T10:41:05+05:30 (commit #<span title="99ffe2ea3c3dc7d0d06723d3f2f9dca675b9b683">99ffe2e</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified GenericClass,Helper,Product as per Sonar Stnds.(v 1.0)</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-12T15:33:09+05:30 (commit #<span title="138c9107e550a463c47744f17829aa35c98ca2f6">138c910</span>)</h3>
+            <div>
+              <p>
+                        Author: PiyusHK (piyushkul@cybage.com) /
+                        Commiter: PiyusHK (piyushkul@cybage.com)
+                    </p>
+              <pre class="wrapped">after modification of test cases</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-09T15:59:28+05:30 (commit #<span title="a507af025c6529126b15b8c77ade6f289dceb920">a507af0</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">Added Admin Part</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-09T15:38:33+05:30 (commit #<span title="c0858c23b1d0b31d456b31a6eb5c8019a6fe0752">c0858c2</span>)</h3>
+            <div>
+              <p>
+                        Author: user6 (tanvig@cybage.com) /
+                        Commiter: user6 (tanvig@cybage.com)
+                    </p>
+              <pre class="wrapped">some files removed</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-05T16:54:16+05:30 (commit #<span title="10c7049e7278009dd1de03db4ad73bf9f2a3f064">10c7049</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">Initial Commit</pre>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <footer xmlns:git="http://xml.phpdox.net/gitlog#">
+      <span>Generated using phpDox 0.6.5 - Copyright (C) 2010 - 2016 by Arne Blankerts</span>
+    </footer>
+  </body>
+</html>

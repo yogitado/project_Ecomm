@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="DisplayLogic" namespace="" name="DisplayLogic" abstract="false" final="false" start="3" end="51">
+  <file path="../ecomm_project" file="DisplayLogic.php" realpath="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/DisplayLogic.php" size="655" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="9dc4f7fc73041dec3c71cb844c1cd68373e76f82"/>
+  <method name="displayForeach" start="7" end="46" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="arranew" byreference="false" type="{unknown}"/>
+  </method>
+</class>

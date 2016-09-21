@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src#">
+  <dir name="ecomm_project">
+    <file name="Success.php" size="644" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="ff3d7c3ea107b72e8bd6c9e34b136e13424a7d44"/>
+    <file name="adminBodyContent.php" size="1474" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="1e814609d6121392a0972000e3122a727674c721"/>
+    <file name="LoginCheck.php" size="248" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="3b3d0495437b0d8592e200bf12168b3dd943be62"/>
+    <file name="Sever_User_Email_Validation.php" size="1219" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="b24fae8dc8e038aca7927a6d2dfb3eba30e3d2b4"/>
+    <file name="DisplayLogic.php" size="655" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="9dc4f7fc73041dec3c71cb844c1cd68373e76f82"/>
+    <file name="BodyUpdateAddress.php" size="1341" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="ba65028242bfbfade2c3091bc2d34687c9d101d3"/>
+    <file name="LoginPageIncluded.php" size="138" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="83174c920df0ade4334cc66caba34ebbc5cda2de"/>
+    <file name="MainIncluded.php" size="131" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="0c11b24f11eae66a63ff079425977cfed766d2d5"/>
+    <file name="BottomTable.php" size="170" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="1176b63f2dbb71d08b1aaadc70bb495c0905f16d"/>
+    <file name="adminDashbordIncluded.php" size="223" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="955ed3733b937f881e2dcbdc0ad7638b2aee2da6"/>
+    <file name="adminResponse.php" size="171" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="4f8781c6fdfa1aa054492f9e64d5acd32749ef98"/>
+    <file name="UpdateAddressDetails.php" size="516" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="8ddad771c186d1c773d6bcc11fecb8aecee702df"/>
+    <file name="fetch_query.php" size="1874" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="dd917228ddf95680a4a5f490431b14a6c21376d1"/>
+    <file name="BodyHome.php" size="1858" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="f0090e41b6de0f7b3aaa5a3b4135a7530597f27b"/>
+    <file name="HeaderHtml.php" size="5966" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="bfa2ee70ac4625c0e81273a95eb424f806b7df24"/>
+    <file name="SignupPageIncluded.php" size="137" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="0582baad1bb0b2bcdf067a0e5be36bdddcb10e94"/>
+    <file name="GenericClass.php" size="2157" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="fc9f08d1742d63111bd264041e8c377d472e785e"/>
+    <file name="Foreach.php" size="183" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="e947c9992b3c693a8f2e1f3eb33971a45119b207"/>
+    <file name="OrderSummaryPageIncluded.php" size="133" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="3f91f202d349498c4c2ccba4b2493f1312114560"/>
+    <file name="updateAddressIncluded.php" size="112" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="2bb17821bfd78d4a75160e59cd0573e9df06d81c"/>
+    <file name="AddAddressIncluded.php" size="108" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="a93cc98715a9e7ee1caf9c00538d8cc19e61baf6"/>
+    <file name="AddToCartPageIncluded.php" size="130" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="905657fb999e4d69bbeb401705138eba0a558c89"/>
+    <file name="Product.php" size="3909" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="f31a8f1393615adc547d1f6b675e5cb7deb40113"/>
+    <file name="BodyAddToCart.php" size="1026" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="52b9b229376712ccbf1c485c6fb17d58a4928e73"/>
+    <file name="Helper.php" size="3271" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="3c3865a70df4d56c32ade1b2c1d479fcafc9fa35"/>
+    <file name="AboutusCustIncluded.php" size="112" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="bf7fb4697759fc1e7959db8f7049bc65bdd8e7e6"/>
+    <file name="add_product.php" size="1412" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="c3bee98e50a62241dbd46261f8b35e790972bd62"/>
+    <file name="index.php" size="103" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="a74a7a9c19ccf90f5e6f8bf263810680490e8688"/>
+    <file name="delete_query.php" size="162" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="c64c065af6c5350e83837f73d5d356dc17d32a88"/>
+    <file name="Navigation.php" size="94" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="0fcb7f5c5ff3dc57ffa0912d2aa086e2973059e3"/>
+    <file name="MainTable.php" size="415" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="1eda3b3a39575a85b805d51e49c5b182970bec21"/>
+    <file name="AddressDetails.php" size="507" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="5387931d2c8253fece8c01dd5fc48b62883b4c2a"/>
+    <file name="AdminLogout.php" size="159" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="0c48c9c4dc603481f6f50bee76f24045e45eeb94"/>
+    <file name="Header.php" size="927" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="95c82d53ee71ee56547e8f1a037698310349fc4f"/>
+    <file name="Address.php" size="739" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="d2c152145d8c4e65c79eb9d2773ae29e1f6bce91"/>
+    <file name="Confirm.php" size="1271" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="2cbe37b1fdfa55eefea24b297b16d4e4fa9c4beb"/>
+    <file name="SuccessAddedUserPageIncluded.php" size="145" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="1b6634f2abc2da2b40ccba870581f81df0e9d354"/>
+    <file name="SignOutPageincluded.php" size="80" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="78e3a85f4741c3c81bf4a89a581efd675740e28a"/>
+    <file name="Validate.php" size="268" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="271e8f172a18b053532c59d5f4de8768e727b62d"/>
+    <file name="BodySignup.php" size="1133" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="d4273bf2f20af84fa1db81e5b63f37c0ce05c84d"/>
+    <file name="admin.php" size="171" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="4b56c72a6b367633971b31cee14983a7d597ac2c"/>
+    <file name="update_query.php" size="163" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="4fafa8f8f639d90c0cde39c99803256e64d3b698"/>
+    <file name="ThankyouPageIncluded.php" size="113" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="5f4ff5bfc508501ad6610b879bb63f62c2ba4587"/>
+    <file name="update1_query.php" size="178" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="49eae12e410bb8b1f744787211f44055bc6d89fe"/>
+    <file name="Summary.php" size="203" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="095348136bd24bc36306342c2b00626ede878df9"/>
+    <file name="ProductViewPage.php" size="4880" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="3368060fab4069918a90d151d8fb20c1a2c777bd"/>
+    <file name="BodyOrderSummery.php" size="1828" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="562ea4bfa33bccf0e8015aa9cabb3cdb9cc4b074"/>
+    <file name="Helper_page.php" size="1260" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="109f5d6c32a174025a01844def393212caa6447a"/>
+    <file name="config1.php" size="281" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="5a89a684a1bfc7f3ed44e0fd973eaed8edc20a6b"/>
+    <file name="user_details.php" size="1199" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="6024f7312485854366614252fe1bc9f163509d1e"/>
+  </dir>
+</source>

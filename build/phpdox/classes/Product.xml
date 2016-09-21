@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Product" namespace="" name="Product" abstract="false" final="false" start="7" end="39">
+  <file path="../ecomm_project" file="Product.php" realpath="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/ecomm_project/Product.php" size="3909" time="2016-08-09T10:38:08+05:30" unixtime="1470719288" sha1="f31a8f1393615adc547d1f6b675e5cb7deb40113"/>
+  <docblock>
+    <description compact="roduct class consist of all CRUD operations of a products"/>
+  </docblock>
+  <member name="helper" type="{unknown}" visibility="private" line="15">
+    <docblock>
+      <description compact="ample class variables">access private
+
+var string</description>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="helper" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="addProduct" start="20" end="24" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="tablename" byreference="false" type="{unknown}"/>
+    <parameter name="user_fields" byreference="false" type="{unknown}"/>
+    <parameter name="user_values" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="deleteProduct" start="25" end="28" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="tablename" byreference="false" type="{unknown}"/>
+    <parameter name="condition" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="updateProduct" start="29" end="32" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="tablename" byreference="false" type="{unknown}"/>
+    <parameter name="field" byreference="false" type="{unknown}"/>
+    <parameter name="condition" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="viewProduct" start="33" end="35" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="product_list" byreference="false" type="{unknown}"/>
+    <parameter name="table" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="viewSingleProduct" start="36" end="38" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="product_list" byreference="false" type="{unknown}"/>
+    <parameter name="table" byreference="false" type="{unknown}"/>
+    <parameter name="condition" byreference="false" type="{unknown}"/>
+  </method>
+</class>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Application Test Suite" tests="4" assertions="4" failures="0" errors="0" time="0.026639">
+    <testsuite name="ConfigTest" file="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/tests/config1Test.php" tests="4" assertions="4" failures="0" errors="0" time="0.026639">
+      <testcase name="testHostconfiguration" class="ConfigTest" file="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/tests/config1Test.php" line="6" assertions="1" time="0.010187"/>
+      <testcase name="testUserconfiguration" class="ConfigTest" file="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/tests/config1Test.php" line="10" assertions="1" time="0.005312"/>
+      <testcase name="testPasswordconfiguration" class="ConfigTest" file="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/tests/config1Test.php" line="14" assertions="1" time="0.005733"/>
+      <testcase name="testHelperconfiguration" class="ConfigTest" file="/home/ajinkyab/Desktop/ashwinPOC/ecommrepobyajinkya/tests/config1Test.php" line="18" assertions="1" time="0.005407"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

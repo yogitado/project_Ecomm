@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crap_result>
+  <project/>
+  <timestamp>2016-08-09 11:47:15</timestamp>
+  <stats>
+    <name>Method Crap Stats</name>
+    <methodCount>23</methodCount>
+    <crapMethodCount>2</crapMethodCount>
+    <crapLoad>17</crapLoad>
+    <totalCrap>312</totalCrap>
+    <crapMethodPercent>8.7</crapMethodPercent>
+  </stats>
+  <methods>
+    <method>
+      <package/>
+      <className>DisplayLogic</className>
+      <methodName>displayForeach</methodName>
+      <methodSignature>displayForeach($arranew)</methodSignature>
+      <fullMethod>displayForeach($arranew)</fullMethod>
+      <crap>110</crap>
+      <complexity>10</complexity>
+      <coverage>0</coverage>
+      <crapLoad>10</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>GenericClass</className>
+      <methodName>checFunLogin</methodName>
+      <methodSignature>checFunLogin($email, $pass)</methodSignature>
+      <fullMethod>checFunLogin($email, $pass)</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>GenericClass</className>
+      <methodName>checkFunctionSummery</methodName>
+      <methodSignature>checkFunctionSummery($email, $pass)</methodSignature>
+      <fullMethod>checkFunctionSummery($email, $pass)</fullMethod>
+      <crap>42</crap>
+      <complexity>6</complexity>
+      <coverage>0</coverage>
+      <crapLoad>6</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct($databasename)</methodSignature>
+      <fullMethod>__construct($databasename)</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>insert</methodName>
+      <methodSignature>insert($table, $field, $values)</methodSignature>
+      <fullMethod>insert($table, $field, $values)</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>insert_all</methodName>
+      <methodSignature>insert_all($table, $values)</methodSignature>
+      <fullMethod>insert_all($table, $values)</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>delete</methodName>
+      <methodSignature>delete($table, $condition)</methodSignature>
+      <fullMethod>delete($table, $condition)</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>read_record</methodName>
+      <methodSignature>read_record($field, $table, $condition)</methodSignature>
+      <fullMethod>read_record($field, $table, $condition)</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>read_all</methodName>
+      <methodSignature>read_all($field, $table)</methodSignature>
+      <fullMethod>read_all($field, $table)</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>update</methodName>
+      <methodSignature>update($table, $field, $condition)</methodSignature>
+      <fullMethod>update($table, $field, $condition)</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper</className>
+      <methodName>__destruct</methodName>
+      <methodSignature>__destruct()</methodSignature>
+      <fullMethod>__destruct()</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper_page</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct($databasename)</methodSignature>
+      <fullMethod>__construct($databasename)</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper_page</className>
+      <methodName>read_page</methodName>
+      <methodSignature>read_page($field, $table, $condition)</methodSignature>
+      <fullMethod>read_page($field, $table, $condition)</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Helper_page</className>
+      <methodName>__destruct</methodName>
+      <methodSignature>__destruct()</methodSignature>
+      <fullMethod>__destruct()</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Product</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct($helper)</methodSignature>
+      <fullMethod>__construct($helper)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Product</className>
+      <methodName>addProduct</methodName>
+      <methodSignature>addProduct($tablename, $user_fields, $user_values)</methodSignature>
+      <fullMethod>addProduct($tablename, $user_fields, $user_values)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Product</className>
+      <methodName>deleteProduct</methodName>
+      <methodSignature>deleteProduct($tablename, $condition)</methodSignature>
+      <fullMethod>deleteProduct($tablename, $condition)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Product</className>
+      <methodName>updateProduct</methodName>
+      <methodSignature>updateProduct($tablename, $field, $condition)</methodSignature>
+      <fullMethod>updateProduct($tablename, $field, $condition)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Product</className>
+      <methodName>viewProduct</methodName>
+      <methodSignature>viewProduct($product_list, $table)</methodSignature>
+      <fullMethod>viewProduct($product_list, $table)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Product</className>
+      <methodName>viewSingleProduct</methodName>
+      <methodSignature>viewSingleProduct($product_list, $table, $condition)</methodSignature>
+      <fullMethod>viewSingleProduct($product_list, $table, $condition)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Sever_User_Email_Validation</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct ($databasename)</methodSignature>
+      <fullMethod>__construct ($databasename)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Sever_User_Email_Validation</className>
+      <methodName>email_Exitence</methodName>
+      <methodSignature>email_Exitence ($field, $table, $condition)</methodSignature>
+      <fullMethod>email_Exitence ($field, $table, $condition)</fullMethod>
+      <crap>12</crap>
+      <complexity>3</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package/>
+      <className>Sever_User_Email_Validation</className>
+      <methodName>__destruct</methodName>
+      <methodSignature>__destruct()</methodSignature>
+      <fullMethod>__destruct()</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+  </methods>
+</crap_result>

@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:pdxf="http://xml.phpdox.net/functions" xmlns:pu="http://schema.phpunit.de/coverage/1.0" lang="en">
+  <head xmlns:git="http://xml.phpdox.net/gitlog#">
+    <title>phpDox - Helper</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav xmlns:git="http://xml.phpdox.net/gitlog#" class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../reports/index.html">Reports</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">Helper</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#violations">Violations</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="#history">History</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>\</small>Helper</h1>
+        <h4>A Helper class which consists all the functions required for CRUD operations</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Helper
+            {<br/><ul class="none"><li>// members</li><li>public
+                         <a href="#members">$con</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="Helper" href="../classes/Helper/__construct.html">__construct</a>()
+                    </li><li>public void <a title="Helper" href="../classes/Helper/insert.html">insert</a>()
+                    </li><li>public void <a title="Helper" href="../classes/Helper/insert_all.html">insert_all</a>()
+                    </li><li>public void <a title="Helper" href="../classes/Helper/delete.html">delete</a>()
+                    </li><li>public void <a title="Helper" href="../classes/Helper/read_record.html">read_record</a>()
+                    </li><li>public void <a title="Helper" href="../classes/Helper/read_all.html">read_all</a>()
+                    </li><li>public void <a title="Helper" href="../classes/Helper/update.html">update</a>()
+                    </li><li>public void <a title="Helper" href="../classes/Helper/__destruct.html">__destruct</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div xmlns:git="http://xml.phpdox.net/gitlog#" class="styled">
+          <h4>Extended by</h4>
+          <ul>
+            <li>
+              <a href="../classes/Sever_User_Email_Validation.html">Sever_User_Email_Validation</a>
+            </li>
+            <li>
+              <a href="../classes/Helper_page.html">Helper_page</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="violations">Violations</h2>
+        <div class="styled">
+          <h3>Checkstyle</h3>
+          <table class="styled">
+            <thead>
+              <tr>
+                <th>Line</th>
+                <th>Column</th>
+                <th>Severity</th>
+                <th>Message</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>12</td>
+              <td>4</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>45</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try{\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>50</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try{\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>38</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>40</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td>9</td>
+              <td>
+                <span title="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">error</span>
+              </td>
+              <td>Method name "Helper::insert_all" is not in camel caps format</td>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td>46</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>48</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>48</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>49</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>49</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>49</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try{\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>50</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>50</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>51</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>51</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>52</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>52</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>53</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>54</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>62</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>62</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>62</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>62</td>
+              <td>45</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>63</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>63</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>64</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>64</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>64</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try{\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>65</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>65</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>66</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>66</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>67</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>67</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>68</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>69</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>79</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>79</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>79</td>
+              <td>9</td>
+              <td>
+                <span title="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">error</span>
+              </td>
+              <td>Method name "Helper::read_record" is not in camel caps format</td>
+            </tr>
+            <tr>
+              <td>79</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>79</td>
+              <td>58</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>80</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>80</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>81</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>81</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>81</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try {\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>82</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>82</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>83</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>84</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>84</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>85</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>85</td>
+              <td>4</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 16 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>86</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>86</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>87</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>87</td>
+              <td>4</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 16 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>88</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>88</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 20 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>89</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>90</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>90</td>
+              <td>4</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 16 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>91</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>91</td>
+              <td>4</td>
+              <td>
+                <span title="Squiz.WhiteSpace.ScopeClosingBrace.Indent">error</span>
+              </td>
+              <td>Closing brace indented incorrectly; expected 2 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>92</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>92</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>93</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>93</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>94</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>95</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>96</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>9</td>
+              <td>
+                <span title="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">error</span>
+              </td>
+              <td>Method name "Helper::read_all" is not in camel caps format</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>43</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>107</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>107</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>108</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>108</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>108</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try {\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>109</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>109</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>110</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>111</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>111</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>112</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>112</td>
+              <td>4</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 16 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>113</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>113</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>114</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>114</td>
+              <td>4</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 16 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>115</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>115</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 20 spaces, found 4</td>
+            </tr>
+            <tr>
+              <td>116</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>117</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>117</td>
+              <td>4</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 16 spaces, found 3</td>
+            </tr>
+            <tr>
+              <td>118</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>119</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>119</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>120</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>120</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>121</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>122</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>131</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>131</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>131</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>131</td>
+              <td>53</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>132</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>132</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>133</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>133</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>133</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try{\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>134</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>134</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>135</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>135</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>136</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>136</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>137</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>138</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>142</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>142</td>
+              <td>2</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>142</td>
+              <td>9</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 4 spaces, found 1</td>
+            </tr>
+            <tr>
+              <td>142</td>
+              <td>31</td>
+              <td>
+                <span title="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine">error</span>
+              </td>
+              <td>Opening brace should be on a new line</td>
+            </tr>
+            <tr>
+              <td>143</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>143</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>143</td>
+              <td>3</td>
+              <td>
+                <span title="Squiz.ControlStructures.ControlSignature">error</span>
+              </td>
+              <td>Expected "try {\n...} catch (...) {\n"; found "try{\n...} catch(...){\n"</td>
+            </tr>
+            <tr>
+              <td>144</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>144</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>145</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>145</td>
+              <td>5</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected 8 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>146</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>146</td>
+              <td>3</td>
+              <td>
+                <span title="Generic.WhiteSpace.ScopeIndent.Incorrect">error</span>
+              </td>
+              <td>Line indented incorrectly; expected at least 12 spaces, found 2</td>
+            </tr>
+            <tr>
+              <td>147</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+            <tr>
+              <td>148</td>
+              <td>1</td>
+              <td>
+                <span title="Generic.WhiteSpace.DisallowTabIndent.TabsUsed">error</span>
+              </td>
+              <td>Spaces must be used to indent lines; tabs are not allowed</td>
+            </tr>
+          </table>
+        </div>
+        <h2 id="members">Members</h2>
+        <div xmlns:git="http://xml.phpdox.net/gitlog#" class="styled members">
+          <h4>public</h4>
+          <ul class="members">
+            <li id="con">
+              <strong>$con</strong>
+              <br/>
+              <span class="indent">ample class variables access private var string</span>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div xmlns:git="http://xml.phpdox.net/gitlog#" class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="__construct"><a title="Helper" href="../classes/Helper/__construct.html">__construct()</a>
+                — lass constructor ,establishes connection with database param string $databasename</li>
+            <li id="__destruct"><a title="Helper" href="../classes/Helper/__destruct.html">__destruct()</a>
+                — Class destructor which closes connection</li>
+            <li id="delete"><a title="Helper" href="../classes/Helper/delete.html">delete()</a>
+                — Deletes particular values from database param string $table param string $condition name sql</li>
+            <li id="insert"><a title="Helper" href="../classes/Helper/insert.html">insert()</a>
+                — Inserts values into particular fields in database param string $table param string $field param string $values return number</li>
+            <li id="insert_all"><a title="Helper" href="../classes/Helper/insert_all.html">insert_all()</a>
+                — Inserts all values into database param string $table param string $values name sql</li>
+            <li id="read_all"><a title="Helper" href="../classes/Helper/read_all.html">read_all()</a>
+                — Fetches all values from table in database param string $table param string $field var array name sql rertun $data</li>
+            <li id="read_record"><a title="Helper" href="../classes/Helper/read_record.html">read_record()</a>
+                — Fetches required values from database param string $table param string $field param string condition var array name sql</li>
+            <li id="update"><a title="Helper" href="../classes/Helper/update.html">update()</a>
+                — Updates the database param string $table param string $field param string condition name sql</li>
+          </ul>
+        </div>
+        <h2 id="history">History</h2>
+        <ul xmlns:git="http://xml.phpdox.net/gitlog#" class="styled history">
+          <li>
+            <h3>2015-03-18T15:36:11+05:30 (commit #<span title="4e166f966aae022c993f822ea4e583641d6aff04">4e166f9</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified 4 files</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-18T15:23:54+05:30 (commit #<span title="cf7bbbdc50914b6ddd7010951407dba67fdfbbe2">cf7bbbd</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">Changed Helper.php Helper_page.php renamed adminindex.php admin.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T21:17:45+05:30 (commit #<span title="8a54391af957e263feda59d15d80df4364ace5e6">8a54391</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.5</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T21:13:48+05:30 (commit #<span title="7b2b340784eaa2d293c5848615b2687a730cef86">7b2b340</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.4</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:40:32+05:30 (commit #<span title="f9cdb2f485e0541e2e2f2611dd122c9976950cf9">f9cdb2f</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.3</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:38:58+05:30 (commit #<span title="1e17c98ea6be34e0226e69c2199b4b29ecf34645">1e17c98</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.3</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:37:58+05:30 (commit #<span title="cb46201c94c84f0381edb4c3abb5b842c238ae99">cb46201</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.2</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:34:46+05:30 (commit #<span title="2c1101e8592f6589f79217cc438a870807a67fda">2c1101e</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.1</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:33:43+05:30 (commit #<span title="6c041eaefdb09347ef9577910b83cf6c824263be">6c041ea</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.1</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:23:02+05:30 (commit #<span title="0c8730239246a54c2d46e228f4198acbd17d2b36">0c87302</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v2.0</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:09:54+05:30 (commit #<span title="47f29c27cfba9b37992fc8670834e11b2248479c">47f29c2</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php v1.0</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T19:08:08+05:30 (commit #<span title="408af5fdf3cf76a17d466b9554eb1ad8c971acc8">408af5f</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T14:29:00+05:30 (commit #<span title="45ab32f6ba36e742f075d1f4ca966416f426a6e5">45ab32f</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T14:25:37+05:30 (commit #<span title="92e1141a74d23eb1ef08a52777cbfbd363726c04">92e1141</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified Helper.php,user_details.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T14:04:34+05:30 (commit #<span title="17a359d2310a2c328f053a223d9c46fec84c63ce">17a359d</span>)</h3>
+            <div>
+              <p>
+                        Author: Piyush Kulkarni (piyushkul@cybage.com) /
+                        Commiter: Piyush Kulkarni (piyushkul@cybage.com)
+                    </p>
+              <pre class="wrapped">API doc comment added to generic and helper files</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-17T12:21:23+05:30 (commit #<span title="b7802fa410579d4d5513b150dda5a9cb912dad79">b7802fa</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Edited Helper.php</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-16T18:08:32+05:30 (commit #<span title="27416b4abcfc08d9303b71137653dffc193fffe5">27416b4</span>)</h3>
+            <div>
+              <p>
+                        Author: dipika (dipikaj@cybage.com) /
+                        Commiter: dipika (dipikaj@cybage.com)
+                    </p>
+              <pre class="wrapped">button color,table edition and alert removal</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-16T11:44:54+05:30 (commit #<span title="9c6da7f0a0af7d67b45de329d43eeed3c7452e7a">9c6da7f</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">activation deactivation user in admin section is done with customer side validation</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-13T17:47:14+05:30 (commit #<span title="57795403debf24a50e007ab8e2e2a92ec7f177fe">5779540</span>)</h3>
+            <div>
+              <p>
+                        Author: dipika (dipikaj@cybage.com) /
+                        Commiter: dipika (dipikaj@cybage.com)
+                    </p>
+              <pre class="wrapped">Edition of all PHP files for sonar</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-13T14:06:18+05:30 (commit #<span title="314be597e90aedcbe692a5889d2d6608593033df">314be59</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">Problem for Internet Explorer (IE-10 onwards) is resolved</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-13T12:51:02+05:30 (commit #<span title="a56ed6dbfdee10cec1e06ac7d42c5c3d84b92da4">a56ed6d</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified 3 files</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-13T10:41:05+05:30 (commit #<span title="99ffe2ea3c3dc7d0d06723d3f2f9dca675b9b683">99ffe2e</span>)</h3>
+            <div>
+              <p>
+                        Author: Jithin Raphi (jithinr@cybage.com) /
+                        Commiter: Jithin Raphi (jithinr@cybage.com)
+                    </p>
+              <pre class="wrapped">Modified GenericClass,Helper,Product as per Sonar Stnds.(v 1.0)</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-12T15:33:09+05:30 (commit #<span title="138c9107e550a463c47744f17829aa35c98ca2f6">138c910</span>)</h3>
+            <div>
+              <p>
+                        Author: PiyusHK (piyushkul@cybage.com) /
+                        Commiter: PiyusHK (piyushkul@cybage.com)
+                    </p>
+              <pre class="wrapped">after modification of test cases</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-10T15:12:59+05:30 (commit #<span title="aa83d7bbf18c80b97faf2fa65e885fe16b502f34">aa83d7b</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">Pagination done with modification in ProductViewPage with style.css</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-09T19:50:50+05:30 (commit #<span title="57e77ccf9d181ea368bab1915bc4f36e324a2757">57e77cc</span>)</h3>
+            <div>
+              <p>
+                        Author: Madhavi (madhavikh@cybage.com) /
+                        Commiter: Madhavi (madhavikh@cybage.com)
+                    </p>
+              <pre class="wrapped">added and modified signUp and Helper and Header by madhavi</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-09T16:35:08+05:30 (commit #<span title="20e0082e3e844b38f4cd0a8cc056077fe3f66a5e">20e0082</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">Changes in Helper file Add comment</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-09T16:32:55+05:30 (commit #<span title="eea132185e9faf0af3495374f83192665362e5e2">eea1321</span>)</h3>
+            <div>
+              <p>
+                        Author: Ashish (ashishka@cybage.com) /
+                        Commiter: Ashish (ashishka@cybage.com)
+                    </p>
+              <pre class="wrapped">Changes in Helper file</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-09T15:38:33+05:30 (commit #<span title="c0858c23b1d0b31d456b31a6eb5c8019a6fe0752">c0858c2</span>)</h3>
+            <div>
+              <p>
+                        Author: user6 (tanvig@cybage.com) /
+                        Commiter: user6 (tanvig@cybage.com)
+                    </p>
+              <pre class="wrapped">some files removed</pre>
+            </div>
+          </li>
+          <li>
+            <h3>2015-03-09T15:22:06+05:30 (commit #<span title="6271d91795d6c79e01d3043529442c33dec3f370">6271d91</span>)</h3>
+            <div>
+              <p>
+                        Author: user6 (tanvig@cybage.com) /
+                        Commiter: user6 (tanvig@cybage.com)
+                    </p>
+              <pre class="wrapped">gandhar made index.php file</pre>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <footer xmlns:git="http://xml.phpdox.net/gitlog#">
+      <span>Generated using phpDox 0.6.5 - Copyright (C) 2010 - 2016 by Arne Blankerts</span>
+    </footer>
+  </body>
+</html>
