@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+aaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<?xml version="1.0" encoding="UTF-8"?>
 <project name="Ecomm" default="build" basedir=".">
  <target name="build" depends="prepare,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpunit,phpdox,zip"/>
 
